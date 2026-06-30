@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 560" font-family="sans-serif">
+  <rect x="0" y="0" width="920" height="560" fill="#ffffff"/>
+  <text x="460" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#111">SUCCESSOR-2試験 PFS Kaplan-Meier曲線(概略再現図)</text>
+  <text x="460" y="50" text-anchor="middle" font-size="13" fill="#333">MeziKd群 中央値18.0ヶ月(95%CI 14.5-22.1) vs Kd群 中央値8.3ヶ月(95%CI 5.6-10.7)　HR 0.48(95%CI 0.36-0.63) p&lt;0.0001</text>
+
+  <line x1="90" y1="480" x2="850" y2="480" stroke="#000" stroke-width="1.5"/>
+  <line x1="90" y1="80" x2="90" y2="480" stroke="#000" stroke-width="1.5"/>
+
+  <g font-size="12" fill="#333">
+    <text x="80" y="484" text-anchor="end">0</text>
+    <text x="80" y="444" text-anchor="end">0.1</text>
+    <text x="80" y="404" text-anchor="end">0.2</text>
+    <text x="80" y="364" text-anchor="end">0.3</text>
+    <text x="80" y="324" text-anchor="end">0.4</text>
+    <text x="80" y="284" text-anchor="end">0.5</text>
+    <text x="80" y="244" text-anchor="end">0.6</text>
+    <text x="80" y="204" text-anchor="end">0.7</text>
+    <text x="80" y="164" text-anchor="end">0.8</text>
+    <text x="80" y="124" text-anchor="end">0.9</text>
+    <text x="80" y="84" text-anchor="end">1.0</text>
+  </g>
+  <text x="35" y="280" text-anchor="middle" font-size="13" fill="#111" transform="rotate(-90 35 280)">無増悪生存確率</text>
+
+  <g font-size="12" fill="#333">
+    <text x="90" y="500">0</text>
+    <text x="159" y="500">3</text>
+    <text x="228" y="500">6</text>
+    <text x="297" y="500">9</text>
+    <text x="366" y="500">12</text>
+    <text x="435" y="500">15</text>
+    <text x="504" y="500">18</text>
+    <text x="573" y="500">21</text>
+    <text x="642" y="500">24</text>
+    <text x="711" y="500">27</text>
+    <text x="780" y="500">30</text>
+    <text x="849" y="500">33</text>
+  </g>
+  <text x="470" y="525" text-anchor="middle" font-size="13" fill="#111">月数(Months)</text>
+
+  <polyline fill="none" stroke="#1f9fd1" stroke-width="2.5" points="
+    90,80 113,84 113,92 136,92 136,104 159,104 159,118 182,118 182,134 205,134 205,150 228,150
+    228,166 251,166 251,182 274,182 274,198 297,198 297,212 320,212 320,224 343,224 343,236
+    366,236 366,248 389,248 389,256 412,256 412,264 435,264 435,272 458,272 458,272 481,272
+    481,280 504,280 504,290 527,290 527,300 550,300 550,312 573,312 573,326 596,326 596,338
+    619,338 619,344 642,344 642,366 665,366 665,366 850,366
+  "/>
+
+  <polyline fill="none" stroke="#c0334d" stroke-width="2.5" points="
+    90,80 113,108 113,124 136,124 136,150 159,150 159,180 182,180 182,210 205,210 205,234
+    228,234 228,252 251,252 251,262 274,262 274,278 297,278 297,288 320,288 320,300 343,300
+    343,310 366,310 366,316 389,316 389,322 412,322 412,328 435,328 435,332 458,332 458,336
+    481,336 481,338 504,338 504,338 527,338 527,358 550,358 550,358 573,358 573,358 596,358
+    596,400 619,400 619,400 642,400 642,452 665,452 665,452 690,452
+  "/>
+
+  <rect x="600" y="68" width="14" height="3" fill="#1f9fd1"/>
+  <text x="620" y="73" font-size="12" fill="#111">mezigdomide-carfilzomib-dexamethasone(MeziKd)</text>
+  <rect x="600" y="84" width="14" height="3" fill="#c0334d"/>
+  <text x="620" y="89" font-size="12" fill="#111">carfilzomib-dexamethasone(Kd)</text>
+
+  <text x="460" y="545" text-anchor="middle" font-size="11" fill="#777">
+    ※本図はLancet誌掲載原図(Figure A)を基にした概略再現図であり、ピクセル単位の正確な再現ではない。正式な数値は原著論文を参照のこと。
+  </text>
+</svg>
